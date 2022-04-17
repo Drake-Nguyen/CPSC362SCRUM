@@ -1,0 +1,22 @@
+.circle {
+    width: 15%;
+    height: 0;
+    padding-bottom: 15%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #ccc;
+    position: relative;
+    border: none;
+  }
+  .circle:before {
+    content: '';
+    display: block;
+    border-top: solid 10px transparent;
+    border-left: solid 10px #FFF;
+    border-bottom: solid 10px transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -3px;
+  }
